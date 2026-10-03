@@ -1,0 +1,22 @@
+def write_essay():
+    """
+    Write an essay about Kolhapur.
+    
+    Returns:
+        str: The written essay.
+    """
+    essay = "Kolhapur is a city located in the state of Maharashtra, India.\n"
+    essay += "It is known for its rich cultural heritage and historical landmarks.\n"
+    essay += "The city is home to the Kolhapur Jyotir Ling Mahadev Temple, a famous Hindu temple dedicated to Lord Shiva.\n"
+    essay += "The temple is known for its unique architecture and intricate carvings.\n"
+    essay += "Kolhapur is also famous for its traditional Marathi folk dance, the Kolatit.\n"
+    essay += "In recent years, Kolhapur has seen significant growth in terms of economy and infrastructure.\n"
+    essay += "The city has become a hub for education and healthcare, with several prestigious institutions located here."
+    return essay
+
+def main():
+    essay = write_essay()
+    print(essay)
+
+if __name__ == "__main__":
+    main()
